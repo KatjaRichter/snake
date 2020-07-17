@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>snake</title>
+  </head>
+  <body>
+    <h1 id="h1"></h1>
+    <p id="p"></p>
+    <button onclick="speed(1)">Langsam</button>
+    <button onclick="speed(2)">Mittel</button>
+    <button onclick="speed(3)">Schnell</button>
+    <button onclick="speed(4)">Turbo</button>
+    <br><br>
+    <button onclick="size(1)">kleiner</button>
+    <button onclick="size(2)">größer</button><br><br>
+    <span>Score: </span><span id="high">0</span><br><br>
+    <span id="size"></span><span id="speed"></span><br><br>
+    <canvas id="game" width="450" height="450"></canvas>
+    <script src="snake.js" type="text/javascript"></script>
+  </body>
+</html>
